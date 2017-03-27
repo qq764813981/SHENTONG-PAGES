@@ -27,7 +27,9 @@
   <link rel="shortcut icon" href="../lib_one/favicon.ico">
 
   <!-- Google Webfont -->
+  <!--
   <link href='http://fonts.useso.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+   -->
   <!-- Themify Icons -->
   <link rel="stylesheet" href="../lib_one/css/themify-icons.css">
   <!-- Icomoon Icons -->
@@ -54,6 +56,9 @@
 </head>
 
 <body class="fh5co-outer">
+
+<!-- 导航栏start -->
+
   <header id="fh5co-header" role="banner">
     
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -65,24 +70,18 @@
           </div>
           <div id="fh5co-navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="user-home.html">个人中心</a></li>
+              <li><a href="user_photo.html">个人中心</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
 
               <li>
 
-                <!--<form action="#" class="form-subscribe">-->
-                  <!--<div class="field">-->
-                    <!--<input type="email" class="form-control" placeholder="输入学校名...">-->
-                    <!--&nbsp;&nbsp;-->
-                    <!--<button class="btn btn-primary">搜索</button>-->
-                  <!--</div>-->
-                <!--</form>-->
+                <a class="btn btn-outline" href="search_school.html">搜索我的学校</a>
 
               </li>
               <li>&nbsp;&nbsp;</li>
-              <li>&nbsp;&nbsp;</li>
-              <li><a class="btn btn-outline" href="login.html">登录</a></li>
+
+              <li><a class="btn btn-outline" href="user_login.html">登录</a></li>
 
               <!--<li><a href="#" class="btn btn-calltoaction btn-primary">快速注册</a></li>-->
             </ul>
@@ -92,6 +91,10 @@
 
   </header>
 
+<!-- 导航栏end -->
+
+
+<!--主页背景图开始-->
   <div id="fh5co-hero" style="background-image: url(../lib_one/images/ncu-bg.jpg)">
     <a href="#fh5co-main" class="smoothscroll animated bounce fh5co-arrow"><i class="ti-angle-down"></i></a>
     <div class="overlay"></div>
@@ -109,21 +112,31 @@
     </div>
   </div>
 
+<!--主页背景图结束-->
+
+
+<!--主页推送通知开始-->
+
   <main role="main" id="fh5co-main">
     <section class="feature">
       <div class="container">
         
         <div class="row">
-          <!--<div class="col-md-4">-->
-            <!--<div class="feature-item">-->
-              <!--<div class="feature-icon"><i class="icon ti-gift"></i></div>-->
-              <!--<div class="feature-text">-->
-                <!--<h3>免费下载手机APP</h3>-->
-                <!--<p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Quidem reiciendis consequuntur nisi enim similique officiis sint, in sequi iste repellat.</p>-->
-              <!--</div>-->
-            <!--</div>-->
-          <!--</div>-->
-          <div class="col-md-6">
+          <div class="col-md-4">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="icon ti-comment"></i></div>
+              <div class="feature-text">
+                <h3>关注我们的微信公众号</h3>
+                <p>
+                  <br>
+                  <a href="#"> <img style="width: 120px;height: 120px" src="../lib_one/images/st-icon.jpg"/> </a></p>
+                <p>
+                  扫描上面二维码关注我们。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
             <div class="feature-item">
               <div class="feature-icon"><i class="icon ti-heart"></i></div>
               <div class="feature-text">
@@ -134,21 +147,32 @@
                   、这里有最美的图书馆、最美的教学楼、最美的校园风景。
                   </h5>
                   <br>
-                  <a href="#" class="btn btn-calltoaction btn-primary">点击浏览</a>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <a href="#" class="btn btn-calltoaction btn-primary">点击浏览</a>
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="feature-item">
               <div class="feature-icon"><i class="icon ti-mobile"></i></div>
               <div class="feature-text">
                 <h3>手机APP下载</h3>
                 <p>
                 <h5>
-                   网页浏览不方便，试试下载使用我们的APP端吧，亲点击选择合适版本下载。
+                   网页浏览不方便，试试下载使用我们的APP端吧，请点击下面下载链接，我们准备了不同的版本供你下载。
                 </h5>
                 <br>
+                <br>
+                <br>
+                <br>
+
+                <br>
+
                 <a href="#" class="btn btn-calltoaction btn-primary">点击下载</a>
                 </p>
               </div>
@@ -157,21 +181,56 @@
         </div>
       </div>
     </section>
-    <!-- END .feature -->
-	<div class="copyrights">copy right @ <a href="#" >神通录团队</a></div>
+
+    <!--主页推送通知结束-->
 
 
+   <!--学校排行开始-->
     <section class="grid-gallery">
       <div class="container">
         
         <div class="row">
-          <div class="col-md-1">
-            <h2 class="section-heading">今日精选</h2>
+          <div class="col-md-2">
+            <h2 class="section-heading">学校排行</h2>
           </div>
         </div>
 
-        <hr>
 
+        <!--no1-->
+
+
+        <div class="row">
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">南昌大学</a>
+          </div>
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">图片总数1203</a>
+          </div>
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">访问量22201</a>
+          </div>
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">活跃指数70</a>
+          </div>
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">排名 NO1</a>
+          </div>
+
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">访问主页</a>
+          </div>
+
+
+        </div>
+
+
+        <hr>
 
         <div class="row gallery-row">
           
@@ -234,20 +293,57 @@
 
         </div>
 
-        <!-- Gallery Row -->
+
 
         <div class="row">
           <div class="col-md-12 text-center">
-            <div><a href="#" class="btn btn-primary">浏览更多</a></div>
+            <div><a href="school_index.html" class="btn btn-primary">浏览更多</a></div>
           </div>
         </div>
 
 
         <br>
+
+        <!-- no 1 end -->
+
+
+
+        <!--no 2 start-->
+
+
+
+        <div class="row">
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">哈佛大学</a>
+          </div>
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">图片总数120</a>
+          </div>
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">访问量220</a>
+          </div>
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">活跃指数700</a>
+          </div>
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">排名 NO3</a>
+          </div>
+
+
+          <div class="col-md-2">
+            <a class="btn btn-outline">访问主页</a>
+          </div>
+
+
+        </div>
+
         <hr>
         <br>
-		
-		<!-- Gallery Row -->
 
         <div class="row gallery-row">
           <div class="col-md-6 col-sm-6">
@@ -256,7 +352,7 @@
                 <a href="../lib_one/images/haf0-01.jpeg" class="img image-popup">
                   <div class="overlay"></div>
                   <div class="text">
-                    <h2>Project 6</h2>
+                    <h2>photo1</h2>
                   </div>
                   <img src="../lib_one/images/haf0-01.jpeg" alt="Image" class="img-responsive">
                 </a>
@@ -265,7 +361,7 @@
                 <a href="../lib_one/images/hafo-02.jpeg" class="img image-popup">
                   <div class="overlay"></div>
                   <div class="text">
-                    <h2>Project 7</h2>
+                    <h2>photo2</h2>
                   </div>
                   <img src="../lib_one/images/hafo-02.jpeg" alt="Image" class="img-responsive">
                 </a>
@@ -276,7 +372,7 @@
                 <a href="../lib_one/images/hafo-03.jpeg" class="img image-popup">
                   <div class="overlay"></div>
                   <div class="text">
-                    <h2>Project 8</h2>
+                    <h2>photo3</h2>
                   </div>
                   <img src="../lib_one/images/hafo-03.jpeg" alt="Image" class="img-responsive">
                 </a>
@@ -285,7 +381,7 @@
                 <a href="../lib_one/images/hafo-04.jpeg" class="img image-popup">
                   <div class="overlay"></div>
                   <div class="text">
-                    <h2>Project 9</h2>
+                    <h2>photo4</h2>
                   </div>
                   <img src="../lib_one/images/hafo-04.jpeg" alt="Image" class="img-responsive">
                 </a>
@@ -309,16 +405,19 @@
         </div>
       </div>
 
+        <!--no2 end-->
+
 
       </div>
     </section>
 
+    <!--学校排行结束-->
 
     <section class="feature">
       <div class="container">
 
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-3">
             <h2 class="section-heading">3D虚拟导览</h2>
           </div>
         </div>
@@ -375,7 +474,7 @@
 
 
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-2">
             <h2 class="section-heading">精选项目</h2>
           </div>
         </div>
@@ -384,73 +483,76 @@
 
         <div class="row gallery-row">
 
-          <div class="col-md-6 col-sm-6">
-            <a href="../lib_one/images/ncu-door.jpg" class="img image-popup">
-              <div class="overlay"></div>
-              <div class="text">
-                <h2>BigBan</h2>
-                <br>
-                <h3>在浏览器里面查看所有图片</h3>
-                <h5>体验校园文化大爆炸</h5>
-              </div>
-              <img src="../lib_one/images/ncu-door.jpg" alt="Image" class="img-responsive">
-            </a>
-          </div>
+            <div class="col-md-6 col-sm-6">
+              <a href="../lib_one/images/ncu-door.jpg" class="img image-popup">
+                <div class="overlay"></div>
+                <div class="text">
+                  <h2>BigBan</h2>
+                  <br>
+                  <h3>在浏览器里面查看所有图片</h3>
+                  <h5>体验校园文化大爆炸</h5>
+                </div>
+                <img src="../lib_one/images/ncu-door.jpg" alt="Image" class="img-responsive">
+              </a>
+            </div>
 
-          <div class="col-md-6 col-sm-6">
-            <div class="row first-row">
-              <div class="col-md-6 col-sm-6">
-                <a href="../lib_one/images/main-learning-building.jpg" class="img image-popup">
-                  <div class="overlay"></div>
-                  <div class="text">
-                    <h2>主教学楼</h2>
-                  </div>
-                  <img src="../lib_one/images/main-learning-building.jpg" alt="Image" class="img-responsive">
-                </a>
+            <div class="col-md-6 col-sm-6">
+              <div class="row first-row">
+                <div class="col-md-6 col-sm-6">
+                  <a href="../lib_one/images/main-learning-building.jpg" class="img image-popup">
+                    <div class="overlay"></div>
+                    <div class="text">
+                      <h2>飞行穿越图片空间</h2>
+                    </div>
+                    <img src="../lib_one/images/main-learning-building.jpg" alt="Image" class="img-responsive">
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <a href="../lib_one/images/ncu-library.jpg" class="img image-popup">
+                    <div class="overlay"></div>
+                    <div class="text">
+                      <h2>3D图片走廊</h2>
+                    </div>
+                    <img src="../lib_one/images/ncu-library.jpg" alt="Image" class="img-responsive">
+                  </a>
+                </div>
               </div>
-              <div class="col-md-6 col-sm-6">
-                <a href="../lib_one/images/ncu-library.jpg" class="img image-popup">
-                  <div class="overlay"></div>
-                  <div class="text">
-                    <h2>图书馆</h2>
-                  </div>
-                  <img src="../lib_one/images/ncu-library.jpg" alt="Image" class="img-responsive">
-                </a>
+              <div class="row">
+                <div class="col-md-6 col-sm-6">
+                  <a href="../lib_one/images/ncu-main-playground.jpg" class="img image-popup">
+                    <div class="overlay"></div>
+                    <div class="text">
+                      <h2>拼图游戏</h2>
+                    </div>
+                    <img src="../lib_one/images/ncu-main-playground.jpg" alt="Image" class="img-responsive">
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <a href="../lib_one/images/ncu-dragon.jpg" class="img image-popup">
+                    <div class="overlay"></div>
+                    <div class="text">
+                      <h2>金龙</h2>
+                    </div>
+                    <img src="../lib_one/images/ncu-dragon.jpg" alt="Image" class="img-responsive">
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6 col-sm-6">
-                <a href="../lib_one/images/ncu-main-playground.jpg" class="img image-popup">
-                  <div class="overlay"></div>
-                  <div class="text">
-                    <h2>运动场</h2>
-                  </div>
-                  <img src="../lib_one/images/ncu-main-playground.jpg" alt="Image" class="img-responsive">
-                </a>
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <a href="../lib_one/images/ncu-dragon.jpg" class="img image-popup">
-                  <div class="overlay"></div>
-                  <div class="text">
-                    <h2>金龙</h2>
-                  </div>
-                  <img src="../lib_one/images/ncu-dragon.jpg" alt="Image" class="img-responsive">
-                </a>
-              </div>
-            </div>
-          </div>
 
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div><a href="#" class="btn btn-primary">快速体验</a></div>
+          </div>
         </div>
 
       </div>
 
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div><a href="#" class="btn btn-primary">快速体验</a></div>
-        </div>
-      </div>
+
 
     </section>
+
 
 
   </main>
